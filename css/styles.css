@@ -51,10 +51,10 @@ ul {
   color: var(--color-text-first);
 }
 .menu-links:focus,
-.menu-links:hover,
-.current {
+.menu-links:hover {
   color: var(--color-link-first);
 }
+
 .menu-links-mail {
   font-weight: 500;
   font-size: 14px;
