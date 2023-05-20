@@ -8,6 +8,8 @@
   --color-link-first: #2196f3;
   --color-link-second: #000000;
   --color-helper-text: #8e8f99;
+  --border-color: #ececec;
+  --border-color-2: #eeeeee;
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --font-primary: Roboto, sans-serif;
   --font-secondary: Raleway, sans-serif;
@@ -225,3 +227,5 @@ ul {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
+
+/* Style do układania*/
