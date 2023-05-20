@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+
   margin: 0;
   padding: 0;
 }
@@ -71,8 +72,8 @@ ul {
 
   color: var(--color-text-second);
 }
-.menu-links-mail:focus,
-.menu-links-mail:hover {
+.menu-links-mail:hover,
+.menu-links-mail:focus {
   color: var(--color-link-first);
 }
 .menu-links-phone {
@@ -155,6 +156,7 @@ ul {
 
 .lorem-ipsum {
   width: 270px;
+  padding-bottom: 10px;
 }
 h2 {
   font-weight: 700;
@@ -175,19 +177,61 @@ h2 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--color-text-first);
+
+  text-align: center;
+  padding-bottom: 50px;
+  justify-content: center;
 }
-.header-h3 {
-  font-size: 16px;
+.foto-section {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: center;
+
+  padding-bottom: 94px;
+}
+
+.team-section {
+  margin: 0px;
+  align-items: center;
+}
+.header-team {
+  font-size: 36px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  justify-content: center;
+  color: var(--color-text-first);
+}
+.header-h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 30px;
+  padding-bottom: 10px;
   color: var(--color-text-first);
 }
 .team-title {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-
+  text-align: center;
+  padding-bottom: 30px;
   color: var(--color-text-second);
+}
+
+.foto-team-section {
+  text-align: center;
+  background-color: var(--background-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .footer {
   background: var(--background-color-header);
