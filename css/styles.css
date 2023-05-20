@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --background-color: #ffffff;
   --background-color-header: #2f303a;
@@ -31,11 +37,13 @@ ul {
 
 .menu-links-web {
   font-family: var(--font-secondary);
-
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  padding: 60px 0;
   color: var(--color-link-first);
 }
 
@@ -79,8 +87,12 @@ ul {
 .menu-links-phone:hover {
   color: var(--color-link-first);
 }
-.header-background {
+.header-main {
   background: var(--background-color-header);
+  height: 600px;
+  margin: 0px;
+  text-align: center;
+  padding: 200px 0;
 }
 .team-section-background {
   background: var(--background-color-team);
@@ -90,12 +102,29 @@ ul {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
   color: var(--color-text-third);
 }
 .button-studio {
   background: var(--color-link-first);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  min-width: 200px;
+  border: none;
   border-radius: 4px;
+  padding: 10px 42px;
+  font-family: var(--font-primary);
+  color: var(--color-text-third);
+  cursor: pointer;
+  text-align: center;
 }
 .button-studio-text {
   font-weight: 700;
@@ -105,9 +134,29 @@ ul {
   font-family: var(--font-primary);
   color: var(--color-text-third);
   cursor: pointer;
+  text-align: center;
+}
+
+.lorem-section {
+  background-color: var(--background-color);
+  padding-bottom: 0px;
+  margin: 0px;
+  justify-content: space-between;
+  gap: 30px;
+}
+.lorem-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  list-style: none;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .lorem-ipsum {
+  width: 270px;
+}
+h2 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -229,3 +278,46 @@ ul {
 }
 
 /* Style do układania*/
+
+.container {
+  padding: 0 15px;
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom: solid 1px;
+  border-color: var(--border-color);
+}
+.nav {
+  width: 254px;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  gap: 30%;
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 46px;
+}
+.contact-links {
+  list-style-type: none;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  margin-left: 371px;
+  color: var(--color-text-second);
+  justify-content: space-between;
+  align-items: center;
+}
