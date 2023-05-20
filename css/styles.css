@@ -236,6 +236,11 @@ h2 {
 .footer {
   background: var(--background-color-header);
 }
+
+.footer-links-webstudio {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
 .footer-links-web {
   font-family: var(--font-secondary);
 
@@ -252,6 +257,14 @@ h2 {
   line-height: 1.19;
 
   color: var(--color-text-third);
+}
+
+.footer-address-block {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.footer-address-position {
+  padding-bottom: 9px;
 }
 .footer-links-address {
   font-weight: 400;
