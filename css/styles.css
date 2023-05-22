@@ -220,7 +220,7 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-
+  padding: 0px 24px 20px 24px;
   color: var(--color-text-second);
 }
 .team-tittle-padding {
