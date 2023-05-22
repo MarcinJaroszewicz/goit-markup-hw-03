@@ -177,21 +177,18 @@ ul {
 .header-h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--color-text-first);
 
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 .foto-section {
   display: flex;
-  list-style: none;
-  gap: 30px;
-  justify-content: center;
 
-  padding-bottom: 94px;
+  gap: 30px;
 }
 
 .team-section {
@@ -204,7 +201,7 @@ ul {
   letter-spacing: 0.03em;
   text-align: center;
   padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   justify-content: center;
   color: var(--color-text-first);
 }
