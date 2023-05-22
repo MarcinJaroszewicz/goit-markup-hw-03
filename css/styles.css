@@ -103,8 +103,7 @@ ul {
 }
 .header-main {
   background: var(--background-color-header);
-  height: 600px;
-  margin: 0px;
+  padding: 200px 0;
   text-align: center;
 }
 .team-section-background {
@@ -118,8 +117,7 @@ ul {
   text-align: center;
   text-transform: uppercase;
   width: 696px;
-  padding-top: 200px;
-  padding-bottom: 30px;
+
   margin: 0 auto;
   margin-bottom: 30px;
   color: var(--color-text-third);
@@ -154,31 +152,21 @@ ul {
 }
 
 .lorem-section {
-  background-color: var(--background-color);
-  padding-bottom: 0px;
-  margin: 0px;
-  justify-content: space-between;
-  gap: 30px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .lorem-list {
   display: flex;
   gap: 30px;
-  justify-content: center;
-  list-style: none;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
-.lorem-ipsum {
-  width: 270px;
-  padding-bottom: 10px;
-}
-h2 {
+.lorem-ipsum-h2 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: var(--color-text-first);
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .lorem-ipsum-text {
   font-weight: 400;
